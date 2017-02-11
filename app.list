@@ -1,0 +1,26 @@
+# This file includes the application using `brew cask install ${application}`
+
+# Google Chrome
+# https://www.google.co.jp/chrome/browser/desktop/
+google-chrome
+
+# Visual Studio for Mac
+# https://www.visualstudio.com/vs/visual-studio-mac/
+visual-studio
+
+# Visual Studio Code
+# https://code.visualstudio.com/
+visual-studio-code
+
+# Skype
+https://www.skype.com/
+skype
+
+# Adobe Flash Player
+# https://get.adobe.com/flashplayer/
+flash-player
+
+# Oracle VM VirtualBox
+# https://www.virtualbox.org/
+virtualbox
+virtualbox-extension-pack
