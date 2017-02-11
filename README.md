@@ -49,9 +49,35 @@ You can view the license agreements in Xcode's About Box, or at /Applications/Xc
 ```
 
 ### 2. Execute this script
-This sample clones this repo to `~/projects/SetupMac/` and sets up the applications written in ...
+This sample clones this repo to `~/projects/SetupMac/` and sets up the applications written in [app.list](app.list).
+
+After you execute [SetupMac.sh](SetupMac.sh), you do the followings:
+* Press RETURN
+* Enter your password
+* Wait until outputing `===== END ====`.
 
 ```
 / $ git clone https://github.com/masanori1102/SetupMac ~/projects/SetupMac/
 / $ ~/projects/SetupMac/SetupMac.sh
+
+1. Install Homebrew
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+
+Press RETURN to continue or any other key to abort
+
+2. Install Homebrew Cask
+.
+.
+.
+3. Install applications with Homebrew Cask
+.
+.
+.
+===== END ====
 ```
