@@ -30,4 +30,7 @@ do
   brew cask install ${line}
 done
 
+# Remove Brew's cache
+brew cleanup -s
+
 echo "===== END ===="
