@@ -8,7 +8,7 @@ echo "1. Install Homebrew"
 
 echo "2. Install Homebrew Cask"
 # "https://caskroom.github.io/"
-brew install caskroom/cask/brew-cask ; echo
+brew tap caskroom/cask ; echo
 
 if [ $? -ne 0 ] ; then
     exit
